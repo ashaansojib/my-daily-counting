@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex justify-between items-center p-2'>
+        <div className='flex justify-between items-center px-2 border-b py-3'>
             <h2 className='text-xl font-semibold text-blue-600'><Link to="/">My Accounting</Link></h2>
             {/* menu bar area */}
             <ul className='flex justify-between items-center gap-2'>
